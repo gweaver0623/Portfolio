@@ -1,0 +1,672 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #eee;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body, html {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #222;
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+   
+}
+
+h1 {
+    font-size: 2em;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    font-size: 1.25em;
+
+}
+
+h1, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+/* ===============  Header =============== */
+
+header {
+    background: url(../img/banner_image.png);
+    background-size: cover;
+    height: 200px;
+    
+
+}
+
+header h1 {
+    color: #add3ab;
+    padding-top: 20px;
+    margin: 0;
+    font-size: 1.6em;
+    width: 54%;
+    margin: auto;
+}
+
+header p {
+    color: #f0f0f0;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    
+}
+
+/* =============== Portfolio Section =============== */
+
+.portfolio {
+    margin: auto;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.portfolio-item {
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+
+.portfolio-picture {
+    margin: auto;
+    width: 75%;
+    
+}
+
+.portfolio-picture img {
+    border: solid 1px #add3ab;
+}
+
+.portfolio-description {
+    padding-right: 40px; 
+    padding-left: 40px;
+    border-width: 5%;
+    width: 85%;
+   
+}
+
+/* =============== About Section =============== */
+
+.about-me {
+    width: 100%;
+    background-color: #add3ab;
+    color: #390c0c;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 0 auto;
+}
+
+.about-me-picture {
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-me-info {
+    padding-right: 40px; 
+    padding-left: 40px;
+    text-align: center;
+}
+
+
+
+
+/* =============== Contact Section =============== */
+
+footer {
+    padding-top: 25px;
+    background: url(../img/footer-background.png);
+    background-size: cover;
+    color: #f0f0f0;
+    text-align: center;
+   
+}
+
+footer h2 {
+    padding-top: 0px;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+
+    
+}
+
+footer h3 {
+    font-size: 1.25em;
+}
+
+footer p {
+    font-size: .75em;
+}
+
+footer ul {
+  
+    width: 100%;
+    padding: 0;
+  
+}
+
+footer ul li {
+    width: 10%;
+    display: inline;
+}
+
+footer ul li img {
+    width: 10%;
+}
+#copyright {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: .5em;
+    padding-top: 15px;
+}
+
+.hire-me {
+    padding-bottom: 15px;
+ 
+}
+
+.follow-me {
+    padding-bottom: 15px;
+   
+}
+
+.follow-me ul li {
+    padding-right: 5px; 
+    padding-left: 5px; 
+}
+.meet-me {
+    padding-bottom: 15px;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+/* Tablet Styles */   
+@media screen and (min-width: 768px) {
+
+  
+
+/* ==== Header Section ==== */
+
+header {
+    height: 500px;
+   
+}
+
+header h1 {
+    font-size: 2.5em;
+    width: 40%;
+    padding-top: 150px;
+}
+
+header p {
+    font-size: 1.75em;
+    width: 50%;
+    margin: auto;
+    padding-top: 15px;
+}
+/* ==== Portfolio Section ==== */
+
+.portfolio {
+    padding-bottom: 50px;
+}
+.portfolio h2 {
+    font-size: 1.65em;
+}
+
+.portfolio-item {
+
+    width: 100%;
+    padding: 30px;
+
+}
+
+.portfolio-picture {
+   width: 45%;
+   float: left;
+   margin: auto 0;
+
+   
+}
+
+
+.portfolio-description {
+    width: 40%;
+    float: right;
+    padding-right: 75px;
+    padding-left: 0;
+  
+}
+
+.portfolio-description h3 {
+    font-size: 1.15em;
+}
+
+.portfolio-description p {
+    font-size: .85em;
+    
+}
+
+
+/* ==== About Me Section ==== */
+.about-me {
+    padding-bottom: 50px;
+}
+
+.about-me h2 {
+    font-size: 1.65em;
+}
+
+.about-me h3 {
+    font-size: 1.15em;
+}
+
+.about-me p {
+    font-size: 1em;
+    width: 90%;
+    margin: auto;
+}
+/* ==== Contact Section ==== */
+
+footer h2 {
+    font-size: 1.65em;
+    padding-top: 20px;
+}
+
+footer h3 {
+    font-size: 1.35em;
+   
+}
+
+footer p {
+    font-size: 1em;
+}
+    
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 920px) {
+
+/* ==== Header Section ==== */
+header {
+    height: 700px;
+
+}
+header h1 {
+    font-size: 3.75em;
+}
+
+header p {
+    font-size: 2.75em;
+}
+/* ==== Portfolio Section ==== */
+.portfolio h2 {
+    font-size: 2.75em;
+}
+
+.portfolio-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.portfolio-description h3 {
+    font-size: 2em;
+}
+
+.portfolio-description p {
+    font-size: 1.25em;
+}
+
+
+/* ==== About Me Section ==== */
+
+.about-me {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.about-me-picture {
+    width: 45%;
+    float: left;
+    margin: auto;
+    
+}
+
+.about-me-picture img {
+    max-width: 490px;
+    padding-left: 50px;
+    margin: auto;
+}
+
+.about-me-info {
+    width: 45%;
+    float: right;
+}
+.about-me h2 {
+    padding-bottom: 50px;
+    font-size: 2.75em;
+}
+
+.about-me h3 {
+    font-size: 1.75em;
+}
+
+.about-me p {
+    font-size: 1.25em;
+}
+
+
+
+/* ==== Contact Section ==== */
+
+.hire-me, .follow-me, .meet-me {
+    width: 33%;
+    float: left;
+}
+footer h2 {
+    font-size: 2.75em;
+}
+
+footer h3 {
+    font-size: 1.75em;
+
+}
+
+footer p {
+    font-size: 1.25em;
+}
+
+#copyright {
+    font-size: .75em;
+    line-height: 1em;
+    
+}
+
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

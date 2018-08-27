@@ -1,0 +1,198 @@
+/***** Base Styles *****/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 1270px;
+    max-width: 1270px;
+}
+
+#about, #menu, #locations, #gallery, #reviews, #content {
+    height: 1200px;
+    float: left;
+}
+
+ /***** Grid *****/
+
+ .full-width {
+     width: 100%;
+     margin: 0 auto;
+    
+     
+ }
+ 
+ .half-width {
+     width: 50%;
+     float: left;
+     
+ }
+
+ .third-width {
+     width: 30%;
+     height: 200px;
+     float: left;
+        
+ }
+
+/***** Header *****/
+header {
+    width: 100%;
+    height:100px;
+    text-transform: uppercase;
+    padding-left: 5%;
+ 
+}
+header h1 {
+    line-height: 100px;
+    width: 50%;
+    
+    font-size: 32px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    padding-top: 6%;
+    padding-right: 15%;
+    padding-left: 0%;
+    padding-bottom: 5%;
+    font-size: 12px;
+    font-weight: bold;
+}
+header nav li {
+    display: inline-block;
+    padding: 15px 15px;
+    color: #77a466;
+}
+
+
+/***** Image *****/
+
+#image {
+    
+    height: 300px;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    
+}
+
+#image img {
+    width: 100%;
+    border-top: solid #77a466 3px;
+    border-bottom: solid #77a466 3px;
+    min-width: 1227px;
+    max-width: 1227px;
+}
+/***** Welcome *****/
+
+#welcome {
+    width: 100%;
+    height: 150px;
+    padding: 1% 5% 2% 5%;
+    
+}
+
+#welcome h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #77a466;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+#welcome p {
+    width: 90%;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    height: 100px;
+    
+}
+
+
+    
+/***** About Us *****/
+#about-us {
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+    border-top: solid #dedbdc 1px;
+    border-bottom: solid #dedbdc 1px;
+    height: 200px;
+    
+}
+
+#about-us h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#food {
+    border-right: solid #dedbdc 1px;
+    
+    
+}
+
+#food h3 {
+   
+}
+
+#food p {
+    color: #77a466;
+    font-family: 'Raleway', sans-serif;
+}
+
+#quote {
+    padding: 0% 2% 0% 2%;
+    
+}
+
+#quote h3 {
+    
+}
+
+#quote p {
+    width: 85%;
+    font-family: 'Raleway', sans-serif;
+    
+  
+}
+
+#contact {
+    border-left: solid #dedbdc 1px;
+    padding: 0% 2% 0% 2%;
+}
+
+#contact h3 {
+
+}
+   
+#contact p {
+    line-height: 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/***** Footer *****/
+
+#footer {
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+    padding-right: 5%;
+   
+}
+
+#footer span {
+    font-family: 'Dr Sugiyama', cursive;
+    font-style: italic;
+    font-size: 26px;
+    color: #77a466;
+    font-weight: lighter;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+}
+
